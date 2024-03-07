@@ -191,3 +191,7 @@
 //   };
 // };
 // console.log(gazoline(1500)(20)(200));
+
+// TASK#2
+
+// unsolved
