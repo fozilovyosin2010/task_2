@@ -169,3 +169,14 @@
 // };
 // let makePass = sendPassword("softclub");
 // console.log(makePass("softclu"));
+
+// SUMTASKS
+
+// TASK#1
+function add_ly(a) {
+  return function () {
+    return a + "ly";
+  };
+}
+
+console.log(add_ly("hope")());
