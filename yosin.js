@@ -180,3 +180,5 @@ function add_ly(a) {
 }
 
 console.log(add_ly("hope")());
+
+//CLASS_TASK_DAY3
