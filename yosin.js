@@ -173,12 +173,21 @@
 // SUMTASKS
 
 // TASK#1
-function add_ly(a) {
-  return function () {
-    return a + "ly";
-  };
-}
+// function add_ly(a) {
+//   return function () {
+//     return a + "ly";
+//   };
+// }
 
-console.log(add_ly("hope")());
+// console.log(add_ly("hope")());
 
 //CLASS_TASK_DAY3
+
+// let gazoline = (x) => {
+//   return function (y) {
+//     return function (z) {
+//       return parseInt((x - z) / y);
+//     };
+//   };
+// };
+// console.log(gazoline(1500)(20)(200));
