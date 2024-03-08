@@ -193,12 +193,16 @@
 // console.log(gazoline(1500)(20)(200));
 
 // TASK#2
-
-// unsolved
-
-// TASK#3
-
-// unsolved
+function mean(a) {
+  let c = 0;
+  let int = 0;
+  for (let i = a; i >= 1; parseInt((i /= 10))) {
+    c += parseInt(i % 10);
+    int++;
+  }
+  return c / int;
+}
+console.log(mean(12345));
 
 //TASK#3
 
@@ -213,13 +217,3 @@
 // console.log(centuty(1701));
 
 //TASK#4
-
-// let isFactorial = (num) => {
-//   let res = parseInt(num % 10);
-//   let c = 1;
-//   for (let i = res; i >= 1; i--) {
-//     c *= i;
-//   }
-//   return c == num ? true : false;
-// };
-// console.log(isFactorial(24));
