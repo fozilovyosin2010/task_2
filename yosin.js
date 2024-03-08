@@ -211,3 +211,15 @@
 // };
 
 // console.log(centuty(1701));
+
+//TASK#4
+
+// let isFactorial = (num) => {
+//   let res = parseInt(num % 10);
+//   let c = 1;
+//   for (let i = res; i >= 1; i--) {
+//     c *= i;
+//   }
+//   return c == num ? true : false;
+// };
+// console.log(isFactorial(24));
