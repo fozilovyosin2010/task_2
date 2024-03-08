@@ -192,14 +192,22 @@
 // };
 // console.log(gazoline(1500)(20)(200));
 
+// TASK#2
+
+// unsolved
+
+// TASK#3
+
+// unsolved
+
 //TASK#3
 
-let centuty = (year) => {
-  return year / 100 == parseInt(year / 100)
-    ? year / 100
-    : year / 100 > parseInt(year / 100)
-    ? parseInt(year / 100) + 1
-    : 1;
-};
+// let centuty = (year) => {
+//   return year / 100 == parseInt(year / 100)
+//     ? year / 100
+//     : year / 100 > parseInt(year / 100)
+//     ? parseInt(year / 100) + 1
+//     : 1;
+// };
 
-console.log(centuty(1701));
+// console.log(centuty(1701));
