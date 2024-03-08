@@ -192,14 +192,14 @@
 // };
 // console.log(gazoline(1500)(20)(200));
 
-// TASK#2
+//TASK#3
 
-// unsolved
+let centuty = (year) => {
+  return year / 100 == parseInt(year / 100)
+    ? year / 100
+    : year / 100 > parseInt(year / 100)
+    ? parseInt(year / 100) + 1
+    : 1;
+};
 
-// TASK#3
-
-// unsolved
-
-// TASK#4
-
-// unsolved
+console.log(centuty(1701));
