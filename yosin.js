@@ -193,16 +193,17 @@
 // console.log(gazoline(1500)(20)(200));
 
 // TASK#2
-function mean(a) {
-  let c = 0;
-  let int = 0;
-  for (let i = a; i >= 1; parseInt((i /= 10))) {
-    c += parseInt(i % 10);
-    int++;
-  }
-  return c / int;
-}
-console.log(mean(12345));
+
+// function mean(a) {
+//   let c = 0;
+//   let int = 0;
+//   for (let i = a; i >= 1; parseInt((i /= 10))) {
+//     c += parseInt(i % 10);
+//     int++;
+//   }
+//   return c / int;
+// }
+// console.log(mean(12345));
 
 //TASK#3
 
