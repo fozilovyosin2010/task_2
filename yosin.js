@@ -218,3 +218,12 @@
 // console.log(centuty(1701));
 
 //TASK#4
+
+//unsoved
+
+//TASK#5
+
+let smaller = (a, b, c) => {
+  return a < b && c ? a : b < c && a ? b : c;
+};
+console.log(smaller(10, 2, 3));
