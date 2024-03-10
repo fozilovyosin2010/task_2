@@ -234,3 +234,12 @@
 //   return a < b && c ? a : b < c && a ? b : c;
 // };
 // console.log(MinandMax(2, 3, 7));
+
+//TASK#7
+
+// function incAndDec(a, b, c) {
+//   return a < b && b < c
+//     ? a * 2 + " " + b * 2 + " " + c * 2
+//     : -a + " " + -b + " " + -c;
+// }
+// console.log(incAndDec(5, 15, 30));
