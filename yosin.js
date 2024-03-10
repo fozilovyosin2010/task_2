@@ -223,7 +223,14 @@
 
 //TASK#5
 
-let smaller = (a, b, c) => {
-  return a < b && c ? a : b < c && a ? b : c;
-};
-console.log(smaller(10, 2, 3));
+// let smaller = (a, b, c) => {
+//   return a < b && c ? a : b < c && a ? b : c;
+// };
+// console.log(smaller(10, 2, 3));
+
+//TASK#6
+// let MinandMax = function (a, b, c) {
+//   console.log(a > b && c ? a : b > c && a ? b : c);
+//   return a < b && c ? a : b < c && a ? b : c;
+// };
+// console.log(MinandMax(2, 3, 7));
