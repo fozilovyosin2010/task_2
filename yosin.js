@@ -245,3 +245,18 @@
 // console.log(incAndDec(5, 15, 30));
 
 //sometasks
+
+//TASK#1
+
+// function sumDidit(n) {
+//   let c = 0;
+//   let d = 0;
+//   for (let i = n; i >= 1; parseInt((i /= 10))) {
+//     c = parseInt(i % 10);
+//     if (c % 2 == 0 || 1) {
+//       d++;
+//     }
+//   }
+//   return d;
+// }
+// console.log(sumDidit(1004));
