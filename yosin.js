@@ -219,7 +219,7 @@
 
 //TASK#4
 
-//unsoved
+//unsolved
 
 //TASK#5
 
@@ -243,3 +243,5 @@
 //     : -a + " " + -b + " " + -c;
 // }
 // console.log(incAndDec(5, 15, 30));
+
+//sometasks
