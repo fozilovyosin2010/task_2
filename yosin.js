@@ -260,3 +260,20 @@
 //   return d;
 // }
 // console.log(sumDidit(1004));
+
+//TASK#2
+
+// let sumnumbers = function (a) {
+//   return function (b) {
+//     return function (c) {
+//       return function (d) {
+//         return function (e) {
+//           return function (f) {
+//             return a + b + c + d + e + f;
+//           };
+//         };
+//       };
+//     };
+//   };
+// };
+// console.log(sumnumbers(2)(3)(4)(0)(0)(6));
